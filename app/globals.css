@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+#li {
+  text-shadow: 1px 0px red;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 2em;
+}
+
+/* NProgress Bar Styles */
+#nprogress {
+  pointer-events: none;
+}
+
+#nprogress .bar {
+  background: #f59e0b; /* amber-400 color */
+  height: 4px;
+}
+
+#nprogress .peg {
+  box-shadow: 0 0 10px #f59e0b, 0 0 5px #f59e0b;
+}
